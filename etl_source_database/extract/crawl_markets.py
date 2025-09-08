@@ -5,6 +5,8 @@ from hdfs import InsecureClient
 from dotenv import load_dotenv
 import os 
 
+load_dotenv()
+
 def crawl_markets():
 
     API_TOKEN = os.getenv("MARKETSTATUS_API_KEY")
