@@ -1,0 +1,146 @@
+{"timestamp":"2025-09-15T10:10:29.745733","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-15T10:10:29.746633","level":"info","event":"Filling up the DagBag from /home/tiendat/Pipeline-Stock-ETL/schedule/dags/etl_datawarehouse.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-15T10:10:29.794397","level":"info","event":"Executing cmd: python -m venv /tmp/venvtseoeu1i","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:29.795785","level":"info","event":"Output:","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:33.529169","level":"info","event":"Executing cmd: /tmp/venvtseoeu1i/bin/pip install -r /tmp/venvtseoeu1i/requirements.txt","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:33.529969","level":"info","event":"Output:","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.025965","level":"info","event":"Collecting dotenv (from -r /tmp/venvtseoeu1i/requirements.txt (line 1))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.027945","level":"info","event":"  Using cached dotenv-0.9.9-py2.py3-none-any.whl.metadata (279 bytes)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.203189","level":"info","event":"Collecting duckdb (from -r /tmp/venvtseoeu1i/requirements.txt (line 2))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.205048","level":"info","event":"  Using cached duckdb-1.3.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (7.0 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.278163","level":"info","event":"Collecting fastparquet (from -r /tmp/venvtseoeu1i/requirements.txt (line 3))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.280028","level":"info","event":"  Using cached fastparquet-2024.11.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.322807","level":"info","event":"Collecting flask (from -r /tmp/venvtseoeu1i/requirements.txt (line 4))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.324549","level":"info","event":"  Using cached flask-3.1.2-py3-none-any.whl.metadata (3.2 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.362674","level":"info","event":"Collecting gunicorn (from -r /tmp/venvtseoeu1i/requirements.txt (line 5))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.364410","level":"info","event":"  Using cached gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.397540","level":"info","event":"Collecting hdfs (from -r /tmp/venvtseoeu1i/requirements.txt (line 6))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.397808","level":"info","event":"  Using cached hdfs-2.7.3-py3-none-any.whl","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.581967","level":"info","event":"Collecting matplotlib (from -r /tmp/venvtseoeu1i/requirements.txt (line 7))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.583912","level":"info","event":"  Using cached matplotlib-3.10.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (11 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.828373","level":"info","event":"Collecting numpy (from -r /tmp/venvtseoeu1i/requirements.txt (line 8))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:34.831866","level":"info","event":"  Using cached numpy-2.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.013155","level":"info","event":"Collecting pandas (from -r /tmp/venvtseoeu1i/requirements.txt (line 9))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.014947","level":"info","event":"  Using cached pandas-2.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (91 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.166476","level":"info","event":"Collecting psycopg2-binary (from -r /tmp/venvtseoeu1i/requirements.txt (line 10))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.168195","level":"info","event":"  Using cached psycopg2_binary-2.9.10-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.278185","level":"info","event":"Collecting pyarrow (from -r /tmp/venvtseoeu1i/requirements.txt (line 11))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.279965","level":"info","event":"  Using cached pyarrow-21.0.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.3 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.313745","level":"info","event":"Collecting pyspark==3.5.6 (from -r /tmp/venvtseoeu1i/requirements.txt (line 12))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.314007","level":"info","event":"  Using cached pyspark-3.5.6-py2.py3-none-any.whl","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.367032","level":"info","event":"Collecting requests (from -r /tmp/venvtseoeu1i/requirements.txt (line 13))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.368890","level":"info","event":"  Using cached requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.401440","level":"info","event":"Collecting seaborn (from -r /tmp/venvtseoeu1i/requirements.txt (line 14))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.403100","level":"info","event":"  Using cached seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.768490","level":"info","event":"Collecting sqlalchemy (from -r /tmp/venvtseoeu1i/requirements.txt (line 15))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.770268","level":"info","event":"  Using cached sqlalchemy-2.0.43-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.6 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.813860","level":"info","event":"Collecting py4j==0.10.9.7 (from pyspark==3.5.6->-r /tmp/venvtseoeu1i/requirements.txt (line 12))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.816363","level":"info","event":"  Using cached py4j-0.10.9.7-py2.py3-none-any.whl.metadata (1.5 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.852459","level":"info","event":"Collecting python-dotenv (from dotenv->-r /tmp/venvtseoeu1i/requirements.txt (line 1))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:35.854094","level":"info","event":"  Using cached python_dotenv-1.1.1-py3-none-any.whl.metadata (24 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.093508","level":"info","event":"Collecting cramjam>=2.3 (from fastparquet->-r /tmp/venvtseoeu1i/requirements.txt (line 3))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.095347","level":"info","event":"  Using cached cramjam-2.11.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.6 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.209808","level":"info","event":"Collecting fsspec (from fastparquet->-r /tmp/venvtseoeu1i/requirements.txt (line 3))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.212810","level":"info","event":"  Using cached fsspec-2025.9.0-py3-none-any.whl.metadata (10 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.266632","level":"info","event":"Collecting packaging (from fastparquet->-r /tmp/venvtseoeu1i/requirements.txt (line 3))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.268675","level":"info","event":"  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.304274","level":"info","event":"Collecting blinker>=1.9.0 (from flask->-r /tmp/venvtseoeu1i/requirements.txt (line 4))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.305970","level":"info","event":"  Using cached blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.343915","level":"info","event":"Collecting click>=8.1.3 (from flask->-r /tmp/venvtseoeu1i/requirements.txt (line 4))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.345644","level":"info","event":"  Using cached click-8.2.1-py3-none-any.whl.metadata (2.5 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.374840","level":"info","event":"Collecting itsdangerous>=2.2.0 (from flask->-r /tmp/venvtseoeu1i/requirements.txt (line 4))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.376442","level":"info","event":"  Using cached itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.411775","level":"info","event":"Collecting jinja2>=3.1.2 (from flask->-r /tmp/venvtseoeu1i/requirements.txt (line 4))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.413507","level":"info","event":"  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.488463","level":"info","event":"Collecting markupsafe>=2.1.1 (from flask->-r /tmp/venvtseoeu1i/requirements.txt (line 4))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.490300","level":"info","event":"  Using cached MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.538848","level":"info","event":"Collecting werkzeug>=3.1.0 (from flask->-r /tmp/venvtseoeu1i/requirements.txt (line 4))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.540896","level":"info","event":"  Using cached werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.580441","level":"info","event":"Collecting docopt (from hdfs->-r /tmp/venvtseoeu1i/requirements.txt (line 6))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.580738","level":"info","event":"  Using cached docopt-0.6.2-py2.py3-none-any.whl","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.619449","level":"info","event":"Collecting six>=1.9.0 (from hdfs->-r /tmp/venvtseoeu1i/requirements.txt (line 6))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.621083","level":"info","event":"  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.726083","level":"info","event":"Collecting contourpy>=1.0.1 (from matplotlib->-r /tmp/venvtseoeu1i/requirements.txt (line 7))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.728334","level":"info","event":"  Using cached contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.757741","level":"info","event":"Collecting cycler>=0.10 (from matplotlib->-r /tmp/venvtseoeu1i/requirements.txt (line 7))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.759342","level":"info","event":"  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.956104","level":"info","event":"Collecting fonttools>=4.22.0 (from matplotlib->-r /tmp/venvtseoeu1i/requirements.txt (line 7))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:36.957910","level":"info","event":"  Using cached fonttools-4.59.2-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl.metadata (109 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.052647","level":"info","event":"Collecting kiwisolver>=1.3.1 (from matplotlib->-r /tmp/venvtseoeu1i/requirements.txt (line 7))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.054488","level":"info","event":"  Using cached kiwisolver-1.4.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.3 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.421000","level":"info","event":"Collecting pillow>=8 (from matplotlib->-r /tmp/venvtseoeu1i/requirements.txt (line 7))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.422947","level":"info","event":"  Using cached pillow-11.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.474514","level":"info","event":"Collecting pyparsing>=2.3.1 (from matplotlib->-r /tmp/venvtseoeu1i/requirements.txt (line 7))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.476216","level":"info","event":"  Using cached pyparsing-3.2.4-py3-none-any.whl.metadata (5.0 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.510277","level":"info","event":"Collecting python-dateutil>=2.7 (from matplotlib->-r /tmp/venvtseoeu1i/requirements.txt (line 7))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.511884","level":"info","event":"  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.707866","level":"info","event":"Collecting pytz>=2020.1 (from pandas->-r /tmp/venvtseoeu1i/requirements.txt (line 9))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.710202","level":"info","event":"  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.748539","level":"info","event":"Collecting tzdata>=2022.7 (from pandas->-r /tmp/venvtseoeu1i/requirements.txt (line 9))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.750270","level":"info","event":"  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.874758","level":"info","event":"Collecting charset_normalizer<4,>=2 (from requests->-r /tmp/venvtseoeu1i/requirements.txt (line 13))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.876551","level":"info","event":"  Using cached charset_normalizer-3.4.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (36 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.912225","level":"info","event":"Collecting idna<4,>=2.5 (from requests->-r /tmp/venvtseoeu1i/requirements.txt (line 13))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.913919","level":"info","event":"  Using cached idna-3.10-py3-none-any.whl.metadata (10 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.974338","level":"info","event":"Collecting urllib3<3,>=1.21.1 (from requests->-r /tmp/venvtseoeu1i/requirements.txt (line 13))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:37.976144","level":"info","event":"  Using cached urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.016367","level":"info","event":"Collecting certifi>=2017.4.17 (from requests->-r /tmp/venvtseoeu1i/requirements.txt (line 13))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.018058","level":"info","event":"  Using cached certifi-2025.8.3-py3-none-any.whl.metadata (2.4 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.255406","level":"info","event":"Collecting greenlet>=1 (from sqlalchemy->-r /tmp/venvtseoeu1i/requirements.txt (line 15))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.257222","level":"info","event":"  Using cached greenlet-3.2.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (4.1 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.295847","level":"info","event":"Collecting typing-extensions>=4.6.0 (from sqlalchemy->-r /tmp/venvtseoeu1i/requirements.txt (line 15))","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.297522","level":"info","event":"  Using cached typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.544092","level":"info","event":"Using cached py4j-0.10.9.7-py2.py3-none-any.whl (200 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.547795","level":"info","event":"Using cached dotenv-0.9.9-py2.py3-none-any.whl (1.9 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.549243","level":"info","event":"Using cached duckdb-1.3.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (21.1 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.583127","level":"info","event":"Using cached fastparquet-2024.11.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.8 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.587552","level":"info","event":"Using cached flask-3.1.2-py3-none-any.whl (103 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.589281","level":"info","event":"Using cached gunicorn-23.0.0-py3-none-any.whl (85 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.590881","level":"info","event":"Using cached matplotlib-3.10.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.7 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.614696","level":"info","event":"Using cached numpy-2.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.656879","level":"info","event":"Using cached pandas-2.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.0 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.701512","level":"info","event":"Using cached psycopg2_binary-2.9.10-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.718119","level":"info","event":"Using cached pyarrow-21.0.0-cp312-cp312-manylinux_2_28_x86_64.whl (42.8 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.823417","level":"info","event":"Using cached requests-2.32.5-py3-none-any.whl (64 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.826919","level":"info","event":"Using cached seaborn-0.13.2-py3-none-any.whl (294 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.827869","level":"info","event":"Using cached sqlalchemy-2.0.43-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.839102","level":"info","event":"Using cached blinker-1.9.0-py3-none-any.whl (8.5 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.841657","level":"info","event":"Using cached certifi-2025.8.3-py3-none-any.whl (161 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.844130","level":"info","event":"Using cached charset_normalizer-3.4.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (151 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.847549","level":"info","event":"Using cached click-8.2.1-py3-none-any.whl (102 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.850051","level":"info","event":"Using cached contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (362 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.852984","level":"info","event":"Using cached cramjam-2.11.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.859600","level":"info","event":"Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.862049","level":"info","event":"Using cached fonttools-4.59.2-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl (4.9 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.875731","level":"info","event":"Using cached greenlet-3.2.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (607 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.880799","level":"info","event":"Using cached idna-3.10-py3-none-any.whl (70 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.882460","level":"info","event":"Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.885288","level":"info","event":"Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.888797","level":"info","event":"Using cached kiwisolver-1.4.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.5 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.893380","level":"info","event":"Using cached MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.895844","level":"info","event":"Using cached packaging-25.0-py3-none-any.whl (66 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.898009","level":"info","event":"Using cached pillow-11.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.915246","level":"info","event":"Using cached pyparsing-3.2.4-py3-none-any.whl (113 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.918817","level":"info","event":"Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.921793","level":"info","event":"Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.924874","level":"info","event":"Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.927855","level":"info","event":"Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.930837","level":"info","event":"Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.933060","level":"info","event":"Using cached urllib3-2.5.0-py3-none-any.whl (129 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.934774","level":"info","event":"Using cached werkzeug-3.1.3-py3-none-any.whl (224 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.936758","level":"info","event":"Using cached fsspec-2025.9.0-py3-none-any.whl (199 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:38.938336","level":"info","event":"Using cached python_dotenv-1.1.1-py3-none-any.whl (20 kB)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:10:39.723266","level":"info","event":"Installing collected packages: pytz, py4j, docopt, urllib3, tzdata, typing-extensions, six, python-dotenv, pyspark, pyparsing, pyarrow, psycopg2-binary, pillow, packaging, numpy, markupsafe, kiwisolver, itsdangerous, idna, greenlet, fsspec, fonttools, duckdb, cycler, cramjam, click, charset_normalizer, certifi, blinker, werkzeug, sqlalchemy, requests, python-dateutil, jinja2, gunicorn, dotenv, contourpy, pandas, matplotlib, hdfs, flask, seaborn, fastparquet","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:01.742826","level":"info","event":"Successfully installed blinker-1.9.0 certifi-2025.8.3 charset_normalizer-3.4.3 click-8.2.1 contourpy-1.3.3 cramjam-2.11.0 cycler-0.12.1 docopt-0.6.2 dotenv-0.9.9 duckdb-1.3.2 fastparquet-2024.11.0 flask-3.1.2 fonttools-4.59.2 fsspec-2025.9.0 greenlet-3.2.4 gunicorn-23.0.0 hdfs-2.7.3 idna-3.10 itsdangerous-2.2.0 jinja2-3.1.6 kiwisolver-1.4.9 markupsafe-3.0.2 matplotlib-3.10.6 numpy-2.3.3 packaging-25.0 pandas-2.3.2 pillow-11.3.0 psycopg2-binary-2.9.10 py4j-0.10.9.7 pyarrow-21.0.0 pyparsing-3.2.4 pyspark-3.5.6 python-dateutil-2.9.0.post0 python-dotenv-1.1.1 pytz-2025.2 requests-2.32.5 seaborn-0.13.2 six-1.17.0 sqlalchemy-2.0.43 typing-extensions-4.15.0 tzdata-2025.2 urllib3-2.5.0 werkzeug-3.1.3","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:02.530902","level":"info","event":"Executing cmd: /tmp/venvtseoeu1i/bin/python /tmp/venv-calltoqi1vgt/script.py /tmp/venv-calltoqi1vgt/script.in /tmp/venv-calltoqi1vgt/script.out /tmp/venv-calltoqi1vgt/string_args.txt /tmp/venv-calltoqi1vgt/termination.log /tmp/venv-calltoqi1vgt/airflow_context.json","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:02.531754","level":"info","event":"Output:","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:03.464363","level":"info","event":"2025-09-15 10:11:03,463 - INFO - Instantiated <InsecureClient(url='http://34.59.119.128:9870')>.","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:03.464650","level":"info","event":"2025-09-15 10:11:03,464 - INFO - Connecting to PostgreSQL...","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:03.643127","level":"info","event":"/home/tiendat/Pipeline-Stock-ETL/etl_datawarehouse/bronze/extract_load_source_database.py:66: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:03.644000","level":"info","event":"  df = pd.read_sql(QUERY, conn)","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:03.764298","level":"info","event":"2025-09-15 10:11:03,763 - INFO - Fetched 20523 rows from database","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:03.872721","level":"info","event":"2025-09-15 10:11:03,872 - INFO - Creating directories to '/user/tiendat/datalake/elt/bronze/database_source/dt=2025-09-15'.","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:03.880896","level":"info","event":"2025-09-15 10:11:03,880 - INFO - Writing to '/user/tiendat/datalake/elt/bronze/database_source/dt=2025-09-15/part-0000.parquet'.","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:03.930944","level":"info","event":"2025-09-15 10:11:03,929 - INFO - Saved 20523 records to /user/tiendat/datalake/elt/bronze/database_source/dt=2025-09-15/part-0000.parquet","logger":"airflow.utils.process_utils"}
+{"timestamp":"2025-09-15T10:11:04.126702","level":"warning","event":"Fail to delete /home/tiendat/airflow/tmp/venvtseoeu1i. The directory does not exist.","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonVirtualenvOperator"}
+{"timestamp":"2025-09-15T10:11:04.399886","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonVirtualenvOperator"}

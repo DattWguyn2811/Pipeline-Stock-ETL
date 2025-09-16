@@ -84,7 +84,6 @@ def save_to_hdfs(df: pd.DataFrame, date: str):
         logging.error(f"Failed to save to HDFS: {e}")
 
 def crawl_ohlcs():
-    # Yesterday (US market close ~4 AM VN)
     date = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
     df = fetch_ohlcs(date)
     if df is not None and not df.empty:

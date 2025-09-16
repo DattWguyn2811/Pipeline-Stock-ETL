@@ -26,8 +26,7 @@ spark = SparkSession.builder \
 def read_bronze_data(partition_date: str):
     """Read data from Bronze layer."""
     hdfs_base_path = f"/user/{USER}/datalake/elt/bronze/ohlcs"
-    # hdfs_path = f"{hdfs_base_path}/dt={partition_date}"
-    hdfs_path = f"{hdfs_base_path}/dt=2025-09-05"
+    hdfs_path = f"{hdfs_base_path}/dt={partition_date}"
     try:
         df = spark.read.parquet(hdfs_path)
         logging.info(f"Read {df.count()} rows from Bronze layer")

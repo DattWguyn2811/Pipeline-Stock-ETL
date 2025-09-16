@@ -56,7 +56,7 @@ def save_to_json(df, hdfs_directory):
     print(f"Saved dataframe to {hdfs_directory}")
 
 
-def transform_to_database_2():
+def transform_data_2():
     markets_data = read_latest_file_in_hdfs("/user/tiendat/etl_database/raw/marketstatus")
 
     date = datetime.date.today().strftime("%Y-%m-%d")
@@ -105,4 +105,4 @@ def transform_to_database_2():
     hdfs_path = f"/user/tiendat/etl_database/processed/transformed_to_database_exchanges/processed_exchanges_{date}.json"
     save_to_json(exchanges, hdfs_path)
 
-transform_to_database_2()
+transform_data_2()

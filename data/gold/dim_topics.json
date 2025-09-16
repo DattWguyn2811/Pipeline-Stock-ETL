@@ -1,0 +1,66 @@
+[
+  {
+    "topic_key": 1,
+    "topic_name": "IPO"
+  },
+  {
+    "topic_key": 2,
+    "topic_name": "Economy - Fiscal"
+  },
+  {
+    "topic_key": 3,
+    "topic_name": "Economy - Macro"
+  },
+  {
+    "topic_key": 4,
+    "topic_name": "Finance"
+  },
+  {
+    "topic_key": 5,
+    "topic_name": "Earnings"
+  },
+  {
+    "topic_key": 6,
+    "topic_name": "Real Estate & Construction"
+  },
+  {
+    "topic_key": 7,
+    "topic_name": "n/a"
+  },
+  {
+    "topic_key": 8,
+    "topic_name": "Retail & Wholesale"
+  },
+  {
+    "topic_key": 9,
+    "topic_name": "Energy & Transportation"
+  },
+  {
+    "topic_key": 10,
+    "topic_name": "Technology"
+  },
+  {
+    "topic_key": 11,
+    "topic_name": "Financial Markets"
+  },
+  {
+    "topic_key": 12,
+    "topic_name": "Economy - Monetary"
+  },
+  {
+    "topic_key": 13,
+    "topic_name": "Mergers & Acquisitions"
+  },
+  {
+    "topic_key": 14,
+    "topic_name": "Manufacturing"
+  },
+  {
+    "topic_key": 15,
+    "topic_name": "Blockchain"
+  },
+  {
+    "topic_key": 16,
+    "topic_name": "Life Sciences"
+  }
+]

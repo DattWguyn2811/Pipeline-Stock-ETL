@@ -53,7 +53,7 @@ def get_data_by_time_range(base_date: datetime.date, time_zone: int) -> tuple[st
         return base_date.strftime("%Y%m%dT0000"), base_date.strftime("%Y%m%dT2359")
     elif time_zone == 2:
         return base_date.strftime("%Y%m%dT0000"), base_date.strftime("%Y%m%dT1200")
-    else:  # time_zone == 3
+    else:
         return base_date.strftime("%Y%m%dT1201"), base_date.strftime("%Y%m%dT2359")
 
 def fetch_news(base_date: datetime.date) -> pd.DataFrame | None:
