@@ -1,0 +1,15 @@
+pandas
+numpy
+sqlalchemy
+pyarrow
+requests
+psycopg2-binary
+fastparquet
+flask
+gunicorn
+duckdb
+seaborn
+matplotlib
+hdfs
+dotenv
+pyspark==3.5.6
